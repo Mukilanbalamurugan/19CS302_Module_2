@@ -1,38 +1,32 @@
-# EX 10 C program to find the factorial of a given number using a function with arguments and return type.
+# EX 6 C Program to print the string "KEYBOARD" n number of times.
 ## DATE:
 ## AIM:
-To write a C program to find the factorial of a given number using a function with arguments and return type.
+To write a C Program to print the string "KEYBOARD" n number of times.
 
 ## Algorithm
 1. Start. 
-2. Declare the variables. 
+2. Declare the variables i,n. 
 3. Prompt the user to enter a value. 
 4. Read the value using scanf. 
-5. Enter factorial of the number. 
-6. End.  
+5. Run the for loop for “i” variable. 
+6. Print “KEYBOARD\n”. 
+7. End.
 
 ## Program:
 ```
-#include <stdio.h> 
-int main() { 
-    int n, i; 
-    unsigned long long factorial = 1; 
-    scanf("%d", &n); 
- 
-    if (n < 0) { 
-        printf("Factorial is not defined for negative numbers.\n"); 
-    } else { 
-        for (i = 1; i <= n; i++) { 
-            factorial *= i; 
-        } 
-        printf("Factorial of %d = %llu\n", n, factorial); 
-    } 
-    return 0; 
+#include<stdio.h> 
+int main() 
+{ 
+int i,n; 
+scanf("%d",&n); 
+for(i=1;i<=n;i++) 
+{printf("KEYBOARD\n"); 
+}return 0; 
 }
 ```
 
 ## Output:
-![image](https://github.com/user-attachments/assets/f0bf6e6b-c498-429f-98c3-8acda90eea79)
+![image](https://github.com/user-attachments/assets/cfdb8b22-3f9d-49d8-b4da-a23c06c4a083)
 
 
 
