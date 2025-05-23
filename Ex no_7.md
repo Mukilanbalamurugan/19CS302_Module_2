@@ -13,6 +13,11 @@ To write a C Program to Print a right triangle star Pattern
 
 ## Program:
 ```
+/*
+C program to print a right triangle star pattern
+Developed by: Mukilan B
+RegisterNumber:  212222060156
+*/
 #include <stdio.h> 
 int main() { 
     int i, j, rows; 
