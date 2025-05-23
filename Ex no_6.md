@@ -14,6 +14,11 @@ To write a C Program to print the string "KEYBOARD" n number of times.
 
 ## Program:
 ```
+/*
+C program to print string "KEYBOARD" n times
+Developed by: Mukilan B
+RegisterNumber:  212222060156
+*/
 #include<stdio.h> 
 int main() 
 { 
